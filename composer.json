@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "php": "^7.2",
-        "php-translation/common": "^3.0",
+        "php": "^7.2 || ^8.0",
+        "php-translation/common": "dev-support-php8",
         "symfony/translation": "^3.4 || ^4.2 || ^5.0"
     },
     "require-dev": {
@@ -36,5 +36,11 @@
         "branch-alias": {
             "dev-master": "2.2-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/450oucema/common"
+        }
+    ]
 }
